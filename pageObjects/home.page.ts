@@ -4,10 +4,12 @@ export class HomePage {
     page: Page;
     btnBurger: Locator;
     btnProfil: Locator;
+    inputSearch: Locator;
 
     constructor(page: Page) {
         this.page = page;
         this.btnBurger = page.getByTestId('btnBurger');
         this.btnProfil = page.locator('');
+        this.inputSearch = page.locator('');
     }
 }
