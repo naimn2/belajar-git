@@ -5,6 +5,7 @@ export class HomePage {
     btnBurger: Locator;
     btnProfil: Locator;
     inputSearch: Locator;
+    btnSubmit: Locator;
 
     constructor(page: Page) {
         this.page = page;
